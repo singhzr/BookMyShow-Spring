@@ -19,11 +19,12 @@ public class ShowSeat {//Represents particular Seat booked for a particular show
 
     private int price;
 
-    private boolean isAvailable;
+    private int isAvailable;
 
-    private boolean foodAttached;
+    private int foodAttached;
 
     private String seatNo;// These values will come from the theater
+
     @Enumerated(value = EnumType.STRING)
     private SeatType seatType;// seats based on mapping or seat structure
 

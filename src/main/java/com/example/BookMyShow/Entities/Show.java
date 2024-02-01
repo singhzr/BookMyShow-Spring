@@ -1,10 +1,7 @@
 package com.example.BookMyShow.Entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -15,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-
+@Builder
 @Entity
 @Table(name = "Shows")
 public class Show {
@@ -43,4 +40,8 @@ public class Show {
 
     @OneToMany(mappedBy = "show", cascade = CascadeType.ALL)
     private List<Ticket> ticketList = new ArrayList<>();
+    public Show(LocalDate showDate, LocalTime showTime) {
+        this.showDate = showDate;
+        this.showTime = showTime;
+    }
 }

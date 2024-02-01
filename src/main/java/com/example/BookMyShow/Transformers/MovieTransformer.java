@@ -13,6 +13,7 @@ public class MovieTransformer {
                 .duration(movieRequest.getDuration())
                 .genre(movieRequest.getGenre())
                 .releaseDate(movieRequest.getReleaseDate())
+                .rating(movieRequest.getRating())
                 .build();
 
         return movie;

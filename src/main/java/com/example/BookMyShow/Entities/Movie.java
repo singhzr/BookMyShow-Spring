@@ -32,6 +32,8 @@ public class Movie {
     @Enumerated(value = EnumType.STRING)
     private Language movieLanguage;
 
+    private double rating;
+
     private LocalDate releaseDate;
 
     private double duration;

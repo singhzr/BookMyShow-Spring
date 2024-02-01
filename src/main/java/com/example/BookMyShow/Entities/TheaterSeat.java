@@ -11,7 +11,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "theater_seats")
-public class TheaterSeats { //Represents all the theater seats in that particular theater
+public class TheaterSeat { //Represents all the theater seats in that particular theater
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
