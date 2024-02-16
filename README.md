@@ -11,7 +11,7 @@ This is a Spring Boot application for managing movie bookings and cinema showtim
 
 ## Technologies Used
 
-- Java
+- Java 
 - Spring Boot
 - Spring MVC
 - Spring Data JPA
