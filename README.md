@@ -1,6 +1,6 @@
 # BookMyShow Spring Boot Application
 
-This is a Spring Boot application for managing movie bookings and cinema showtimes.
+This BookMyShow simplifies the process of managing movie screenings, theaters, and ticket bookings for cinema owners and moviegoers. It offers functionalities for adding movies, theaters, shows, and users, as well as booking and viewing tickets.
 
 ## Features 
 
