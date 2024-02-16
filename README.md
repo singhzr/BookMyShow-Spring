@@ -15,6 +15,6 @@ This is a Spring Boot application for managing movie bookings and cinema showtim
 - Spring Boot
 - Spring MVC
 - Spring Data JPA
-- Hibernate
+- Hibernate 
 - MySQL
 - RESTful APIs for communication between frontend and backend
