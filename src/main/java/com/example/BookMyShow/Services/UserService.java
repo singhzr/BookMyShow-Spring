@@ -4,7 +4,10 @@ import com.example.BookMyShow.Entities.User;
 import com.example.BookMyShow.Repositories.UserRepository;
 import com.example.BookMyShow.RequestDTOs.AddUserRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Service
 public class UserService {
