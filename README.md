@@ -2,7 +2,7 @@
 
 This is a Spring Boot application for managing movie bookings and cinema showtimes.
 
-## Features
+## Features 
 
 - **User Authentication**: Allows users to register, login, and manage their profiles.
 - **Movie Booking**: Enables users to browse movies, view showtimes, and book tickets.
