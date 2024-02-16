@@ -10,7 +10,7 @@ This BookMyShow simplifies the process of managing movie screenings, theaters, a
 - **Admin Dashboard**: Offers an admin dashboard for managing movies, theaters, showtimes, and user bookings.
 
 ## Technologies Used
-
+ 
 - Java 
 - Spring Boot
 - Spring MVC
